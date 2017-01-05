@@ -30,12 +30,15 @@ class SupportController extends RestfulController{
             }
             render(contentType: "application/json"){["Response" : "Success"]}
         
-            def User,Password,Repository
+            def User,Password,Repository,AssignedUser
 		 
 		 User="AbhinayThakur"
 		 Password="1234abcd"
 		 Repository="WorkSpace"
-		 
+		 AssignedUser = "Abhinay2"
+
+		org.eclipse.egit.github.core.User user2 = new org.eclipse.egit.github.core.User();
+		user2.setLogin(AssignedUser);
 		 
 		 
 	GitHubClient client = null
@@ -51,6 +54,7 @@ class SupportController extends RestfulController{
 	Issue issue=new Issue();
 	issue.setTitle(sub);
 	issue.setBody(msg);
+        issue.setAssignee(user2);
 
 
 	try {
