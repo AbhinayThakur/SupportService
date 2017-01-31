@@ -33,7 +33,7 @@
         <h3 class="panel-title">Greeting from HealtheLife</h3>
       </div>
       <div class="panel-body">
-          <p>Thanks for your valuable feedback.</p><p>we will revert to you soon if needed.</p><p>Your message is:</p><p>${message}</p>
+          <p>Thanks for your valuable feedback.</p><p>We will revert to you soon if needed.</p><p>Your message is:</p><p>${message}</p>
         
       </div>
       <div class="panel-footer">Team HealtheLife <br>www.healthelife.in</div>
