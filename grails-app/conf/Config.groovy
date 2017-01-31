@@ -59,6 +59,10 @@ grails {
     }
 }
 
+// CORS
+cors.url.pattern = '/supportmail'
+cors.headers = ['Access-Control-Allow-Origin': '*']
+cors.enabled = true
 
 
 

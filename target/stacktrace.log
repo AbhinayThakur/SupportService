@@ -1,0 +1,21 @@
+2017-01-31 12:10:27,825 [FileSystemWatcher: files=#109 cl=groovy.lang.GroovyClassLoader@3eb77ea8] ERROR StackTrace  - Full Stack Trace:
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at sl.org.objectweb.asm.ClassReader.readShort(Unknown Source)
+	at sl.org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at sl.org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.springsource.loaded.TypeDiffComputer.computeDifferences(TypeDiffComputer.java:63)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:323)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:1013)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:104)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:251)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:235)
+	at java.lang.Thread.run(Thread.java:745)
+2017-01-31 12:10:27,860 [FileSystemWatcher: files=#109 cl=groovy.lang.GroovyClassLoader@3eb77ea8] ERROR StackTrace  - Full Stack Trace:
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at java.lang.Thread.run(Thread.java:745)
+2017-01-31 12:10:27,860 [FileSystemWatcher: files=#109 cl=groovy.lang.GroovyClassLoader@3eb77ea8] ERROR StackTrace  - Full Stack Trace:
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at java.lang.Thread.run(Thread.java:745)
+2017-01-31 12:10:27,860 [FileSystemWatcher: files=#109 cl=groovy.lang.GroovyClassLoader@3eb77ea8] ERROR StackTrace  - Full Stack Trace:
+java.lang.ArrayIndexOutOfBoundsException: 6
+	at java.lang.Thread.run(Thread.java:745)
