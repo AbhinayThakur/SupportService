@@ -43,44 +43,44 @@ class SupportController extends RestfulController{
             render(contentType: "application/json"){["Response" : "Success"]}  //sending json response as success
         
             
-            def User,Password,Repository,AssignedUser
-            //GitHub Credentials//////	 
-            User="AbhinayThakur"
-            Password="1234abcd"
-            Repository="WorkSpace"
-            AssignedUser = "Abhinay2" // user to assign issue
-
-            org.eclipse.egit.github.core.User user2 = new org.eclipse.egit.github.core.User();
-            user2.setLogin(AssignedUser);
-		 
-            GitHubClient client = null
-            try {
-		client = new GitHubClient();
-		client.setCredentials(User, Password);
-            } catch (Exception e1) {
-		
-		e1.printStackTrace();
-            }
-		 
-            IssueService issueService= new IssueService(client);
-            Issue issue=new Issue();
-            issue.setTitle(sub);
-            issue.setBody(msg);
-            issue.setAssignee(user2);
-
-
-            try {
-		issueService.createIssue(User, Repository, issue);
-            } catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-            }
+//            def User,Password,Repository,AssignedUser
+//            //GitHub Credentials//////	 
+//            User="AbhinayThakur"
+//            Password="1234abcd"
+//            Repository="WorkSpace"
+//            AssignedUser = "Abhinay2" // user to assign issue
+//
+//            org.eclipse.egit.github.core.User user2 = new org.eclipse.egit.github.core.User();
+//            user2.setLogin(AssignedUser);
+//		 
+//            GitHubClient client = null
+//            try {
+//		client = new GitHubClient();
+//		client.setCredentials(User, Password);
+//            } catch (Exception e1) {
+//		
+//		e1.printStackTrace();
+//            }
+//		 
+//            IssueService issueService= new IssueService(client);
+//            Issue issue=new Issue();
+//            issue.setTitle(sub);
+//            issue.setBody(msg);
+//            issue.setAssignee(user2);
+//
+//
+//            try {
+//		issueService.createIssue(User, Repository, issue);
+//            } catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//            }
 
            
             
         }catch(Exception e)
         {
-           
+           print e
             render(contentType: "application/json"){["Response" : "Fail"]}
                
              

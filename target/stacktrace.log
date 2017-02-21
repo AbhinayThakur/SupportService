@@ -19,3 +19,63 @@ java.lang.ArrayIndexOutOfBoundsException: 6
 2017-01-31 12:10:27,860 [FileSystemWatcher: files=#109 cl=groovy.lang.GroovyClassLoader@3eb77ea8] ERROR StackTrace  - Full Stack Trace:
 java.lang.ArrayIndexOutOfBoundsException: 6
 	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:47,884 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$_supportmail_closure4$$DQBCDRVg"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:39)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1301)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:122)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:110)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:422)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:1013)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:104)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:251)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:235)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:47,929 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$_supportmail_closure4$$DQBCDRVg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:47,929 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$_supportmail_closure4$$DQBCDRVg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:47,929 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$_supportmail_closure4$$DQBCDRVg"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:48,454 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$$DQBCDRVX"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:39)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1301)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:122)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:110)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:422)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:1013)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:104)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:251)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:235)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:48,454 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$$DQBCDRVX"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:48,454 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$$DQBCDRVX"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-14 14:51:48,455 [FileSystemWatcher: files=#108 cl=groovy.lang.GroovyClassLoader@48793bef] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "supportservice/SupportController$$DQBCDRVX"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
