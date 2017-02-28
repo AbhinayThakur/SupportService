@@ -35,7 +35,7 @@ class SupportController extends RestfulController{
                 to email     
                 subject "Thank you for your feedback"
                // body msgBody
-                html view: "/support/email", model: [message: message]
+                html view: "/referral/email", model: [message: msg]
             }
 
            

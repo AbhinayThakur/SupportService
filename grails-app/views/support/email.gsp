@@ -17,7 +17,7 @@
       <div style="color: #555555; display: block; padding-left: 2em; padding-top: 1em; padding-right: 1em; padding-bottom: 1em">
       
      
-          <p>Thank you for your valuable feedback.</p><p>We will revert to you soon if needed.</p><p>Your message is:</p><p>${message}</p>
+          <p>Thank you for your valuable feedback.</p><p>We will revert to you soon if needed.</p><p><b>Your message is:</b></p><p>${message}</p>
         
        
        <p>Regards,</p>
@@ -29,7 +29,7 @@
     <div>
       <center><a href="https://play.google.com/store/apps/details?id=com.healthelife.ncoach&ah=DYBlLdaDlKmpVGfdY5JoNkZTO3g"><img src="http://ehr.healthelife.in:8080/ehr/assets/google.png" alt="HealtheLife" style="width: 135px; height: 37px; padding-bottom: 20px;"></a></center>
       <center style="color: #008b7a; font-size: 16px; font-weight: 600;font-family: 'Roboto', sans-serif;"><a href="http://healthelife.in/" style="color: #008b7a; list-style: none; text-decoration: none;">healthelife.in</a></center>
-      <center style="color: #999999; font-size: 12px; font-weight: 400; font-family: 'Roboto', sans-serif;">&#169 healthelife, All rights reserved. E103 Health-e-life IIITB Electronic City Bangalore.</center>
+      <center style="color: #999999; font-size: 12px; font-weight: 400; font-family: 'Roboto', sans-serif;">&copy; healthelife, All rights reserved. E103 Health-e-life IIITB Electronic City Bangalore.</center>
     </div>
   </div>
   </body>
